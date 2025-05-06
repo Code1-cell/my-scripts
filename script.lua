@@ -14,6 +14,7 @@ rs.SpawnGalaxyBlock:FireServer()
 rs.SpawnGalaxyBlock:FireServer()
 rs.SpawnGalaxyBlock:FireServer()
 
+
 local success, result = pcall(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "bHre Tarafından yapılmıştır..",
