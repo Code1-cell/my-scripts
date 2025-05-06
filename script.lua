@@ -13,11 +13,14 @@ rs.SpawnGalaxyBlock:FireServer()
 rs.SpawnGalaxyBlock:FireServer()
 rs.SpawnGalaxyBlock:FireServer()
 rs.SpawnGalaxyBlock:FireServer()
-local Players = game:GetService("Players")
-local plr = Players.LocalPlayer
+local success, result = pcall(function()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Script Yüklendi",
+        Text = "Hazırlayan: Code1-cell",
+        Duration = 5
+    })
+end)
 
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Script Yüklendi",
-    Text = "Hazırlayan: Code1-cell",
-    Duration = 5
-})
+if not success then
+    print("Code1-cell tarafından yapılmıştır.")
+end
