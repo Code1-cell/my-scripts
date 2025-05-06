@@ -16,8 +16,8 @@ rs.SpawnGalaxyBlock:FireServer()
 
 local success, result = pcall(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Script Yüklendi",
-        Text = "Hazırlayan: Code1-cell",
+        Title = "bHre Tarafından yapılmıştır..",
+        Text = "Kanala Abone ol lannn!!",
         Duration = 5
     })
 end)
